@@ -1,0 +1,39 @@
+# Build outputs
+build/
+Debug/
+Release/
+*.o
+*.d
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# IDE-generated files
+*.uvoptx
+*.uvprojx
+*.dep
+*.user
+*.suo
+*.cproject
+*.settings/
+*.sdf
+*.ipch
+*.db
+
+# System files
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode (optional)
+.vscode/
+
+# STM32CubeIDE (optional)
+*.launches
